@@ -47,6 +47,7 @@ namespace SDDM {
                                                                                                    "NOTE: Currently ignored if autologin is enabled."));
         Entry(InputMethod,         QString,     QStringLiteral("qtvirtualkeyboard"),                   _S("Input method module"));
         Entry(Namespaces,          QStringList, QStringList(),                                  _S("Comma-separated list of Linux namespaces for user session to enter"));
+        Entry(DefaultSession,      QString,     QString(),                                      _S("System-wide default session"));
         Entry(GreeterEnvironment,  QStringList, QStringList(),                                  _S("Comma-separated list of environment variables to be set"));
         //  Name   Entries (but it's a regular class again)
         Section(Theme,
